@@ -1,0 +1,17 @@
+/* background color */
+
+.bgblue{background-color:blue;}
+.bgred{background-color:red;}
+.bggreen{background-color:green;}
+.bglightgray{background-color:lightgray;}
+.bggray{background-color:gray;}
+.brdarkgray{background-color:rgb(77, 74, 74);}
+.bgorange{background-color:orange;}
+
+
+/* text color */
+
+.tblue{color:blue;}
+.tgreen{color:green;}
+.tred{color:red;}
+

@@ -1,0 +1,13 @@
+.grid-layout{
+    display:grid;
+    grid-template-rows: 10% 1fr 10%;
+    grid-template-columns:1fr;
+    height:100%;
+}
+
+.grid-navbar{
+    display:grid;
+    grid-row: 1 / 2;
+    grid-column: 1 / end;
+    height:100%;
+}
