@@ -11,6 +11,7 @@
     margin-right:0.2rem;
     cursor:pointer;
     font-weight:bold;
+    transition: background-ease 0.2s;
 }
 
 .vu-tabs .vu-tab{
@@ -21,15 +22,15 @@
     padding:1rem;
 }
 
-vu-tabs input[type="radio"]{
+.vu-tabs input[type="radio"]{
     display:none;
 }
 
-vu-tabs input[type="radio"]:checked + label{
+.vu-tabs input[type="radio"]:checked + label{
     border-bottom:solid .2em blue;
 }
 
-vu-tabs input[type="radio"]:checked + label + .vu-tab{
+.vu-tabs input[type="radio"]:checked + label + .vu-tab{
     display:Block;
 }
 

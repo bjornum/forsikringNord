@@ -34,11 +34,30 @@
 
 .flex-profile-image{
     display:flex;
-    padding:4em;
+    padding:1.5em;
     border:solid 1px black;
-    margin-left:6em;
-    margin-top:3em;
+    margin-left:9em;
+    margin-top:10em;
     align-self:top;
     height:6em;
     width:6em;
+}
+
+.flex-tabell-box{
+    display:flex;
+    padding:4em;
+}
+
+.flex-tabs-positioning{
+    display:flex;
+    margin-top:8em;
+    align-content:flex-start;
+    margin-left:4em;
+    border:solid 1px black;
+    padding-bottom:10em;
+}
+
+.flex-column{
+    display:flex;
+    flex-direction:column;
 }
