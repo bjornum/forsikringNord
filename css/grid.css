@@ -1,6 +1,6 @@
 .grid-layout{
     display:grid;
-    grid-template-rows: 10% 1fr 10%;
+    grid-template-rows: 1fr 80% 1fr;
     grid-template-columns:1fr;
     height:100%;
 }

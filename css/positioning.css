@@ -1,0 +1,26 @@
+.justify-center{
+    display:flex;
+    justify-content:center;
+}
+
+.justify-end{
+    display:flex;
+    justify-content: end;
+}
+
+.justify-start{
+    display:flex;
+    justify-content:start;
+}
+
+
+.align-self{
+    display:flex;
+    align-self:center;
+}
+
+/* margins*/
+
+.margin-left-4{
+    margin-left:4em;
+}
