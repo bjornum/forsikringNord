@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../css/flex.css">
     <link rel="stylesheet" href="../css/positioning.css">
     <link rel="stylesheet" href="../css/tabs.css">
+    <link rel="stylesheet" href="../css/modal.css"
 </head>
 <body style ="background-color:lightgray">
     <div class="viewport">
@@ -49,7 +50,8 @@
                             <!--User info-->
 
 
-                            <div class="flex-userInfo-box bgorange">
+                            <div>
+                                <button id="myButton" class="flex-user-button"></button>
 
                             </div>
                         </div>
@@ -58,6 +60,57 @@
             </div>
 
             <!--Middle part-->
+
+            <!--modal window -->
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">x</span>
+                    <div>
+                        fullName
+                    </div>
+                    <div>
+                        <a href="#">Epost</a>
+                    </div>
+                    <div>
+                        tlf
+                    </div>
+                    <div>
+                        <a href="#">Adresse</a>
+                    </div>
+                    <div>
+                        kunde Nummer
+                    </div>
+                    <div>
+                        <button id="myButton2">Misc</button>
+                    </div>
+                    <!--misc modal-->
+                    <div id="myModal2" class="modal2">
+                        <div class="modal2-content">
+                            <span class="close">x</span>
+                            <!--Sivil Status-->
+                            <div class="tgreen">
+                                Married
+                            </div>
+                            <!--Number of Kids-->
+                            <div class="tred">
+                                2 kids
+                            </div>
+                            <!--Benefisiory-->
+                            <div class="tgreen">
+                                Jane Smith
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+                
+
+            </div>
+
+
             <div class="grid-middle">
                 <div class="flex-it-up flex-column">
                     <!--Image box for default image-->
@@ -93,6 +146,6 @@
 
          </div>
     </div>
-    
+    <script src="../js/modal.js"></script>
 </body>
 </html>

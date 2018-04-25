@@ -24,9 +24,13 @@
 .flex-userInfo-box{
     display:block;
     padding:2em;
+    max-width: 2em;
+    max-height: 2em;
     border:solid 1px black;
     margin-left:1em;
 }
+
+
 
 .flex-margin-left{
     margin-left:53em;
@@ -41,6 +45,8 @@
     align-self:top;
     height:6em;
     width:6em;
+    color:black;
+    background-color:white;
 }
 
 .flex-tabell-box{
@@ -60,4 +66,20 @@
 .flex-column{
     display:flex;
     flex-direction:column;
+}
+
+.button{
+    display:block;
+    padding:2em;
+    margin-right:7em;
+}
+
+
+.flex-user-button{
+    display:flex;
+    padding:3em;
+    max-width: 2em;
+    max-height: 2em;
+    border:solid 1px black;
+    margin-left:1em;
 }
