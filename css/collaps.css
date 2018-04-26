@@ -1,0 +1,19 @@
+.dropmenu{
+    background-color:lightgoldenrodyellow;
+    color:blue;
+    cursor:pointer;
+    padding:0.2em;
+    width:50%;
+    text-align:left;
+}
+
+.active, .dropmenu:hover {
+    background-color: lightgreen;
+}
+
+.dropcontent{
+    padding: 0.5em;
+    display:none;
+    overflow:hidden;
+    background-color:lightgoldenrodyellow;
+}

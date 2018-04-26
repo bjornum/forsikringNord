@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="../css/flex.css">
     <link rel="stylesheet" href="../css/positioning.css">
     <link rel="stylesheet" href="../css/tabs.css">
-    <link rel="stylesheet" href="../css/modal.css"
+    <link rel="stylesheet" href="../css/modal.css">
+    <link rel="stylesheet" href="../css/collaps.css">
 </head>
 <body style ="background-color:lightgray">
     <div class="viewport">
@@ -80,15 +81,13 @@
                     <div>
                         kunde Nummer
                     </div>
-                    <div>
-                        <button onclick="miscOn()">Misc</button>
-                    </div>
-                    <div id="miscShow" class="misc-box">
-                        <div class="misc-box-layout">
-                            <div>Married</div>
-                            <div>2 kids</div>
-                            <div>Jane Smith</div>
-                        </div>
+
+                    <button class="dropmenu">misc</button>
+
+                    <div class="dropcontent">
+                        <div>Married</div>
+                        <div>2 kids</div>
+                        <div>Jane Smith</div>
 
                     </div>
 
@@ -135,5 +134,6 @@
          </div>
     </div>
     <script src="../js/modal.js"></script>
+    <script src="../js/collaps.js"></script>
 </body>
 </html>
